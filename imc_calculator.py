@@ -1,10 +1,10 @@
 # #CALCULADORA DE IMC
 #peso/altura*altura=BMI
 print("Calculadora de IMC")
-Peso = float(input("Digite seu peso em KG: "))
-Altura = float(input("Digite sua altura em metros: "))
+peso = float(input("Digite seu peso em KG: "))
+altura = float(input("Digite sua altura em metros: "))
 imc = Peso / (Altura * Altura)
-print(f"Seu IMC é: {int(imc)}")
+print(f"Seu IMC é: {imc}")
 if imc >= 35:
     print("Obesidade Mórbida")
 elif imc >= 30: 
